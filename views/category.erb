@@ -1,0 +1,17 @@
+
+
+<h1> <%= @categories["name"] %></h1>
+
+<h3>ITEMS:</h3>
+
+<ul>
+	<%= @all_products.each do |x| %>
+
+		
+
+</ul>
+
+
+<form action="/categories/<%= @categories["id"] %>/destroy" method="post">
+    <input type="submit" name="" value="Delete this category.">
+</form>

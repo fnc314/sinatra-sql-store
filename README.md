@@ -5,11 +5,11 @@ Your company has a working interface written with Sinatra and SQL to manage a li
 We need a new feature: categories.  
 
 1. Products should be in many categories, and categories should have many products.  
-1. The manager should be able to create and delete categories.
-1. The manager should be able to see all categories
-1. The manager should be able to go to a category's page and view all the products in that category.
-1. The manager should be able to go to a product's page and view all the categories that product is in.
-1. From a product's edit form page, he should also be able to add and remove category memberships for that product.
+2. The manager should be able to create and delete categories.
+3. The manager should be able to see all categories
+4. The manager should be able to go to a category's page and view all the products in that category.
+5. The manager should be able to go to a product's page and view all the categories that product is in.
+6. From a product's edit form page, he should also be able to add and remove category memberships for that product.
 
 Build this new functionality starting from the sinatra app for products in app.rb and views/.  Use the current functionality as a guide where possible.
 

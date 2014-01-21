@@ -1,0 +1,8 @@
+<% @categories.each do |cat| %>
+
+<p><a href="/categories/<%=cat["id"]%>"><%= cat["name"] %></a></p>
+
+<% end %>
+
+<a href="/categories/new">Create a new category</a>
+<a href="/categories/"
